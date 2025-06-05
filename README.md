@@ -1,14 +1,14 @@
-🧾 Application de Gestion de Facturation avec Crystal Reports
+<h1>🧾 Application de Gestion de Facturation avec Crystal Reports</h1>
 Ce projet consiste à développer une application de facturation en Windows Forms avec génération de rapports professionnels à l’aide de Crystal Reports, et gestion des données avec SQL Server et ADO.NET.
 
-🛠 Technologies utilisées
+<h1>🛠 Technologies utilisées</h1>
 Composant	Description
 🧑‍💻 C# (.NET)	Langage principal de développement avec Windows Forms
 🗃️ SQL Server	Système de gestion de base de données relationnelle
 📦 ADO.NET	Bibliothèque pour la communication avec SQL Server
 📊 Crystal Reports	Génération de rapports PDF (devis/factures)
 
-🎯 Objectif du projet
+<h1>🎯 Objectif du projet</h1>
 Développer une application permettant :
 
 La gestion des clients
@@ -19,7 +19,7 @@ L’impression de rapports avec Crystal Reports
 
 Le suivi des ventes et des documents générés
 
-🧱 Architecture du projet
+<h1>🧱 Architecture du projet</h1>
 Interface utilisateur avec Windows Forms
 
 Utilisation d’un DataSet typé pour modéliser les relations entre :
@@ -36,19 +36,19 @@ Rapports personnalisés avec Crystal Reports
 
 Gestion de la base de données via ADO.NET
 
-🗂️ Structure du projet
-python
-Copy code
-TP5_Facturation_CrystalReports/
+<h1>🗂️ Structure du projet</h1>
+python<br>
+Copy code<br>
+TP5_Facturation_CrystalReports/<br>
 │
-├── bin/                         # Exécutables compilés
-├── CrystalReports/             # Rapports .rpt (devis/factures)
-├── Forms/                      # Formulaires utilisateurs
-├── Models/                     # Modèles des entités (Client, Produit, etc.)
-├── DataSet/                    # DataSet typé et TableAdapters
-├── Program.cs                  # Point d’entrée
-└── TP5_Facturation.csproj      # Fichier projet
-📌 Fonctionnalités principales
+├── bin/                         # Exécutables compilés<br>
+├── CrystalReports/             # Rapports .rpt (devis/factures)<br>
+├── Forms/                      # Formulaires utilisateurs<br>
+├── Models/                     # Modèles des entités (Client, Produit, etc.)<br>
+├── DataSet/                    # DataSet typé et TableAdapters<br>
+├── Program.cs                  # Point d’entrée<br>
+└── TP5_Facturation.csproj      # Fichier projet<br>
+<h1>📌 Fonctionnalités principales</h1>
 👥 Clients
 
 Ajouter / modifier / supprimer un client
@@ -67,7 +67,7 @@ Conversion devis → facture
 
 Calcul automatique des totaux
 
-📤 Rapports
+<h1>📤 Rapports</h1>
 
 Génération de devis/factures en PDF
 
@@ -75,7 +75,7 @@ Aperçu avant impression
 
 Export PDF / Impression via Crystal Reports
 
-🖼️ Aperçu du DataSet
+<h1>🖼️ Aperçu du DataSet</h1>
 Le DataSet comprend les relations suivantes :
 
 Client (IdClient) ←→ Facture (IdClient)
